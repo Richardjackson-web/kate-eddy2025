@@ -81,15 +81,19 @@ body {
     position: relative;
 }
 .hero-wel{
-    text-align: center;
-    padding-top: 120px;
+    /* text-align: center; */
+    /* padding-top: 120px; */
     color: white;
-    margin: 0;
+    /* margin: 0; */
+    /* padding-top: 100px; */
     font-family: "Dancing Script", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   /* font-size: 100px; */
+}
+.hero-sec{
+    font-family: 'Courier New', Courier, monospace;
 }
 .date{
     font-family: "Cormorant Garamond", serif;
@@ -152,23 +156,23 @@ body {
 .countdown-box {
     background-color: #BA5546;
     color: white;
-    padding: px;
+    /* padding: px; */
     text-align: center;
     border-radius: 8px;
-    width: 100px;
+    /* width: 100px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .countdown-box .number {
-    font-size: 2rem;
-    font-weight: bold;
+    /* font-size: 2rem; */
+    /* font-weight: bold; */
 }
 
 .countdown-box .label {
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-top: 8px;
+    /* font-size: 0.9rem; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 1px; */
+    /* margin-top: 8px; */
 }
  /* Hamburger Menu */
  .hamburger {
