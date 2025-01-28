@@ -131,15 +131,9 @@ body {
     font-family: "Montserrat Alternates", serif;
     font-weight: 300;
   }
-.countdown {
-    /* display: flex; */
-    /* gap: 10px; */
-    /* position: absolute;
-    top: 80px; */
-    /* padding-left: 400px; */
-}
+
 .groomsmen{
-    font-family: "Cormorant Garamond", serif;
+    font-family: "Karla", serif;
 
 }
 .groomsmen-img{
@@ -162,17 +156,8 @@ body {
     /* width: 100px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-.countdown-box .number {
-    /* font-size: 2rem; */
-    /* font-weight: bold; */
-}
-
-.countdown-box .label {
-    /* font-size: 0.9rem; */
-    /* text-transform: uppercase; */
-    /* letter-spacing: 1px; */
-    /* margin-top: 8px; */
+.invite{
+    font-family: "Karla", serif;
 }
  /* Hamburger Menu */
  .hamburger {
