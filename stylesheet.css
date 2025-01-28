@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar Container */
+.navbar {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* background-color: #5B0A08; */
+    padding: 20px 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Logo */
+.logo, .bride, .groom {
+    font-family: "Dancing Script", serif;
+}
+
+/* Center Menu */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #f4a261;
+}
+
+/* Button */
+.navbar .cta-button {
+    background-color: #BA5546;
+    color: white;
+    padding: 10px 17px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.gallery{
+    background-color: #BA5546;
+    color: white;
+    padding: 10px 17px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.navbar .cta-button:hover {
+    background-color: #e07a43;
+}
+.hero{
+    background-image: url(./asset//couple.jpg);
+    background-color: #2c2a2a;
+    background-blend-mode: overlay;
+    /* height: 700px; */
+    width: 100%;
+    position: relative;
+}
+.hero-wel{
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+    margin: 0;
+    font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  /* font-size: 100px; */
+}
+.date{
+    font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  /* font-size: 35px; */
+  /* position: absolute;
+  right: 0; */
+  /* padding-right: 31rem; */
+}
+.journey{
+    font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  left: 250px;
+  margin-top: 60px;
+}
+.span{
+    color: #e5a78c;
+}
+.love-story{
+    background-color: #5B0A08;
+}
+.glimpse{
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e5a78c;
+}
+.story, .groom-text, .bride-text{
+    font-family: "Montserrat Alternates", serif;
+    font-weight: 300;
+  }
+.countdown {
+    /* display: flex; */
+    gap: 10px;
+    /* position: absolute;
+    top: 80px; */
+    /* padding-left: 400px; */
+}
+.groomsmen{
+    font-family: "Cormorant Garamond", serif;
+
+}
+.groomsmen-img{
+    border-radius: 10px;
+    /* border: 1px solid #BA5546; */
+}
+.groomsmen-text{
+    font-family: "Lora", serif;
+}
+.groomsmen-div{
+    border: 1px solid #353434;
+    border-radius: 10px;
+}
+.countdown-box {
+    background-color: #BA5546;
+    color: white;
+    padding: px;
+    text-align: center;
+    border-radius: 8px;
+    width: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.countdown-box .number {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.countdown-box .label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+ /* Hamburger Menu */
+ .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.hamburger div {
+    background-color: white;
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Transform hamburger into X */
+.hamburger.active div:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active div:nth-child(2) {
+    opacity: 0; /* Hide middle bar */
+}
+
+.hamburger.active div:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar ul {
+        display: none; /* Hide the menu by default */
+        flex-direction: column; /* Stack items vertically */
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #5B0A08;
+        align-items: center;
+        padding: 10px 0;
+        z-index: 1;
+    }
+
+    .navbar ul.show {
+        display: flex; /* Show the menu when active */
+    }
+
+    .navbar ul li {
+        margin: 10px 0; /* Add vertical spacing between items */
+    }
+
+    .cta-button {
+        display: none; /* Hide the button on mobile for simplicity */
+    }
+}
