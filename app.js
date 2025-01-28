@@ -57,3 +57,6 @@
       navbar.classList.remove("bg-white", "shadow-lg");
     }
   });
+
+  
+  

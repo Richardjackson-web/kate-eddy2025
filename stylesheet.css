@@ -58,16 +58,9 @@ body {
     transition: background-color 0.3s ease;
 }
 .gallery{
-    background-color: #BA5546;
-    color: white;
-    padding: 10px 17px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: bold;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    font-family: "Montserrat Alternates", serif;
 }
 .navbar .cta-button:hover {
     background-color: #e07a43;
@@ -144,7 +137,7 @@ body {
     font-family: "Lora", serif;
 }
 .groomsmen-div{
-    border: 1px solid #353434;
+    /* border: 1px solid #353434; */
     border-radius: 10px;
 }
 .countdown-box {
