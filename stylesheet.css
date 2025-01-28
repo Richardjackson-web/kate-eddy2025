@@ -11,7 +11,7 @@ body {
     /* justify-content: space-between; */
     /* align-items: center; */
     /* background-color: #5B0A08; */
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -133,7 +133,7 @@ body {
   }
 .countdown {
     /* display: flex; */
-    gap: 10px;
+    /* gap: 10px; */
     /* position: absolute;
     top: 80px; */
     /* padding-left: 400px; */
