@@ -34,7 +34,7 @@ body {
 
 .navbar ul li a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
     font-size: 18px;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -124,7 +124,10 @@ body {
     font-family: "Montserrat Alternates", serif;
     font-weight: 300;
   }
+.about{
+    font-family: "Montserrat Alternates", serif;
 
+}
 .groomsmen{
     font-family: "Karla", serif;
 
