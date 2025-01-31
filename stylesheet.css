@@ -128,9 +128,41 @@ body {
     font-family: "Montserrat Alternates", serif;
 
 }
+.input{
+    border: 2px solid black;
+}
 .groomsmen{
     font-family: "Karla", serif;
 
+}
+input, select{
+    background-color: #ffffff;
+    padding: 10px;
+    min-width: 300px;
+  min-height: 40px;
+  border: 1px solid #e07a43;
+  font-family: "Karla", serif;
+
+}
+.attendance{
+    font-family: "Karla", serif;
+    font-size: 18px;
+}
+.RSVP{
+    font-family: "Karla", serif;
+    font-size: 40px;
+}
+.confirm{
+    font-family: "Karla", serif;
+    font-size: 25px;
+}
+button{
+    background-color: #5B0A08;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
 }
 .groomsmen-img{
     border-radius: 10px;
@@ -213,5 +245,11 @@ body {
 
     .cta-button {
         display: none; /* Hide the button on mobile for simplicity */
+    }
+    .RSVP{
+        font-size: 28px;
+    }
+    .confirm{
+        font-size: 18px;
     }
 }
