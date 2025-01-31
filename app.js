@@ -1,4 +1,13 @@
- // JavaScript to toggle the navigation menu and hamburger icon
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener("click", function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+          behavior: "smooth"
+      });
+  });
+});
+
+// JavaScript to toggle the navigation menu and hamburger icon
  const hamburger = document.getElementById('hamburger');
  const navLinks = document.getElementById('nav-links');
 

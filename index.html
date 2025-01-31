@@ -29,7 +29,7 @@
             <li><a class="text-white" href="./index.html">Home</a></li>
             <li><a class="text-white" href="/aboutus.html">About Us</a></li>
             <li><a class="text-white" href="/gallery.html">Gallery</a></li>
-            <li><a class="text-white" href="#contact">Contact Us</a></li>
+            <li><a class="text-white" href="#rsvp">RSVP</a></li>
         </ul>
 
         <!-- Call-to-Action Button -->
@@ -344,51 +344,13 @@
     <!-- RSVP -->
      <div>
         
-        <div class="md:flex flex-row">
+        <div id="rsvp" class="md:flex flex-row">
             <div class="basis-1/2 md:block hidden">
-                <img src="./asset/couple.jpg" alt="Image 1" class="w-full h-[500px]">
+                <img src="./asset/couple.jpg" alt="Image 1" class="w-full h-[600px]">
             </div>
             <div class="basis-1/2 px-5 bg-[#EACDC1] pt-8">
-                <!-- <form>
-                    <div class="space-y-12">
-                        <div class="">
-                            <div class="">
-                                <h2 class="RSVP">RSVP Here</h2>
-                                <p class="confirm">Confirm attendance by filling out the form below;</p>
-                            </div>
-                            <h2 class="text-base/7 font-lexend md:text-center font-medium text-gray-900">Send us a message</h2>
 
-                            <div class="mt-5 grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-6">
-                                <div class="sm:col-span-3 col-span-6">
-                                    <div class="mt-2">
-                                        <input placeholder="Full Name" type="text" name="full-name" id="full-name" autocomplete="given-name" className="form" />
-                                    </div>
-                                </div>
-
-                                <div class="sm:col-span-3 col-span-6">
-                                    <div class="mt-2">
-                                        <input placeholder="Email Address" type="text" name="email-address" id="email-address" autocomplete="email" className="form" />
-                                    </div>
-                                </div>
-                                <div class="">
-                                    <div class="">
-                                        <span>Will you be at the wedding physically?</span>
-                                            <label for="">Yes</label>
-                                            <input type="radio" name="yes" id="yes" className="" />
-                                            <label for="">No</label>
-                                            <input type="radio" name="yes" id="yes" className="" />
-    
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-6 md:text-center gap-x-6 text-center">
-                        <button type="submit" className="bg-[#BA5546] px-7 cursor-pointer py-3 border-none rounded-lg text-white text-base font-bold mt-6">Send message</button>
-                    </div>
-                </form> -->
-
-                <form action="./submit.php" method="POST" class="space-y-8">
+                <form action="./submit.php" method="POST" class="space-y-6">
                     <div class="text-center">
                         <h2 class="RSVP">RSVP Here</h2>
                         <p class="confirm">Confirm attendance by filling out the form below;</p>
@@ -410,7 +372,11 @@
                             <option value="yes">Yes, I’ll be there!</option>
                             <option value="no">Sorry, I can’t make it.</option>
                         </select>
-                    </div>        
+                    </div>     
+                    <div>
+                        <label for="attendance" class="block attendance text-sm font-medium text-gray-700">Have a felicitation message for us? We would love to read it.</label>
+                        <textarea name="message" placeholder="Drop a felicitation message..." class="w-full p-3 border rounded-lg"></textarea>
+                    </div>   
                     <button type="submit" 
                         class="w-full bg-pink-600 text-white font-semibold py-2 rounded-lg hover:bg-pink-700 transition">
                         Submit RSVP

@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -135,7 +138,7 @@ body {
     font-family: "Karla", serif;
 
 }
-input, select{
+input, select, textarea{
     background-color: #ffffff;
     padding: 10px;
     min-width: 300px;
