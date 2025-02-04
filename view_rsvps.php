@@ -7,7 +7,7 @@ if (!file_exists($file)) {
 
 echo "<h2>RSVP List</h2>";
 echo "<table border='1' cellpadding='10'>";
-echo "<tr><th>Name</th><th>Email</th><th>Attendance</th><th>Message</th></tr>";
+echo "<tr><th>Attendance</th><th>Message</th></tr>";
 
 $handle = fopen($file, "r");
 while (($row = fgetcsv($handle)) !== false) {
