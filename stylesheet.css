@@ -111,6 +111,9 @@ body {
   left: 250px;
   margin-top: 60px;
 }
+.img-bride{
+    border-radius: 50%;
+}
 .span{
     color: #e5a78c;
 }
