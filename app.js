@@ -20,7 +20,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 
  // Set the target date and time for the countdown
- const targetDate = new Date("2025-02-14T00:00:00").getTime(); // Example: Valentine's Day 2025
+ const targetDate = new Date("2025-02-15T00:00:00").getTime(); // Example: Valentine's Day 2025
 
  function updateCountdown() {
      const now = new Date().getTime();

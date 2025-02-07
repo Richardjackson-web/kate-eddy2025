@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     fclose($file);
 
     // Confirmation Message
-    echo "<p style='color: green;'>Thank you, $name! Your RSVP has been recorded.</p>";
+    echo "<p style='color: green;'>Thank you! Your RSVP has been recorded.</p>";
 } else {
     echo "<p style='color: red;'>Invalid request.</p>";
 }
