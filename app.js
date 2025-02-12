@@ -70,26 +70,26 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 
   
-  let currentIndex = 0;
-const items = document.querySelectorAll('#carousel > div');
-const totalItems = items.length;
+//   let currentIndex = 0;
+// const items = document.querySelectorAll('#carousel > div');
+// const totalItems = items.length;
 
-function updateCarousel() {
-  const itemWidth = window.innerWidth <= 768 ? (100 / 2) : (100 / 5); // 2 images at a time on mobile, 5 images on desktop
-  const offset = -(currentIndex * itemWidth) + '%';
-  document.querySelector('#carousel').style.transform = `translateX(${offset})`;
-}
+// function updateCarousel() {
+//   const itemWidth = window.innerWidth <= 768 ? (100 / 2) : (100 / 5); // 2 images at a time on mobile, 5 images on desktop
+//   const offset = -(currentIndex * itemWidth) + '%';
+//   document.querySelector('#carousel').style.transform = `translateX(${offset})`;
+// }
 
-function nextSlide() {
-  if (currentIndex < totalItems - 1) {
-    currentIndex++;
-  } else {
-    currentIndex = 0;
-  }
-  updateCarousel();
-}
+// function nextSlide() {
+//   if (currentIndex < totalItems - 1) {
+//     currentIndex++;
+//   } else {
+//     currentIndex = 0;
+//   }
+//   updateCarousel();
+// }
 
 // Auto slide every 2 seconds
-setInterval(nextSlide, 2000);
+// setInterval(nextSlide, 2000);
 
-updateCarousel(); // Initial setup
+// updateCarousel(); // Initial setup
